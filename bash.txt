@@ -40,3 +40,9 @@ These statistics mean:
 	2.762 total: Total elapsed real time (wall clock time) in seconds
 
 This is a common way to benchmark or measure the performance of commands on Unix-like systems. In this case, it shows that the git pull operation took about 2.76 seconds in total, but only used a small amount of CPU time, likely because most of the time was spent waiting for network communication with GitHub.
+
+## ports
+
+Use `netstat -ntlp` to list all the ports that have tcp listeners. You will have to do it with `sudo` to get all the process IDs.
+
+On a Mac use `sudo lsof -iTCP -sTCP:LISTEN -P -n` instead.
