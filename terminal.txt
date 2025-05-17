@@ -105,3 +105,101 @@ resize pane:
 toggle pane zoom:
 
     Ctrl + b z
+
+# Terminal Line Editing Shortcuts
+
+## Cursor Movement
+
+move to start of line:
+
+    Ctrl+A
+
+move to end of line:
+
+    Ctrl+E
+
+move forward one word:
+
+    Alt+F (or Esc+F)
+
+move backward one word:
+
+    Alt+B (or Esc+B)
+
+## Deletion
+
+delete character under cursor:
+
+    Ctrl+D
+
+delete from cursor to end of line:
+
+    Ctrl+K
+
+delete from cursor to start of line:
+
+    Ctrl+U
+
+delete word before cursor:
+
+    Ctrl+W
+
+delete word after cursor:
+
+    Alt+D (or Esc+D)
+
+## Other Editing
+
+clear screen (keep current line):
+
+    Ctrl+L
+
+transpose characters:
+
+    Ctrl+T
+
+undo:
+
+    Ctrl+_ (or Ctrl+X followed by Ctrl+U)
+
+paste from kill ring (what was deleted):
+
+    Ctrl+Y
+
+paste previous deletion from kill ring:
+
+    Alt+Y (after Ctrl+Y)
+
+capitalize word:
+
+    Alt+C
+
+uppercase word:
+
+    Alt+U
+
+lowercase word:
+
+    Alt+L
+
+## History
+
+previous command in history:
+
+    Ctrl+P (or Up Arrow)
+
+next command in history:
+
+    Ctrl+N (or Down Arrow)
+
+search history backward:
+
+    Ctrl+R
+
+search history forward:
+
+    Ctrl+S (may be captured by terminal)
+
+abort current edit:
+
+    Ctrl+C
