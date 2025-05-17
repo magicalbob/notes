@@ -75,7 +75,7 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 
 When prompted:
-* Username: token
+* Username: __token__
 * Password: your TestPyPI token (including pypi- prefix)
 
 #### 3. Test installation from TestPyPI:
@@ -94,7 +94,7 @@ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://
 twine upload dist/*
 ```
 When prompted:
-* Username: token
+* Username: __token__
 * Password: your PyPI token (including pypi- prefix)
 
 #### 3. Verify your package:
