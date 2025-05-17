@@ -1,0 +1,107 @@
+# Terminal Management
+
+## iTerm2 (macOS)
+
+split window vertically:
+
+    Command + D (⌘D)
+
+split window horizontally:
+
+    Command + Shift + D (⌘⇧D)
+
+navigate between panes:
+
+    Command + Option + Arrow keys (⌘⌥←↑→↓)
+
+maximize pane:
+
+    Command + Shift + Enter (⌘⇧Enter)
+
+close pane:
+
+    Command + W (⌘W)
+
+## screen (Unix/Linux terminal multiplexer)
+
+start a new screen session:
+
+    screen
+
+split window horizontally:
+
+    Ctrl + a S
+
+split window vertically:
+
+    Ctrl + a |
+
+move between windows:
+
+    Ctrl + a Tab
+
+close current window:
+
+    Ctrl + a X
+
+detach from session:
+
+    Ctrl + a d
+
+reattach to session:
+
+    screen -r
+
+list sessions:
+
+    screen -ls
+
+create named session:
+
+    screen -S session_name
+
+## tmux (modern terminal multiplexer)
+
+start a new session:
+
+    tmux
+
+split window horizontally:
+
+    Ctrl + b "
+
+split window vertically:
+
+    Ctrl + b %
+
+navigate between panes:
+
+    Ctrl + b Arrow keys
+
+close current pane:
+
+    Ctrl + b x
+
+detach from session:
+
+    Ctrl + b d
+
+list sessions:
+
+    tmux ls
+
+attach to session:
+
+    tmux attach -t session_name
+
+create named session:
+
+    tmux new -s session_name
+
+resize pane:
+
+    Ctrl + b Ctrl + Arrow keys
+
+toggle pane zoom:
+
+    Ctrl + b z
